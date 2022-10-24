@@ -1,0 +1,6 @@
+list1 = [1,23,12,21,321,123,12,32,32,3,13,213,21,3122,321,3,123,2]
+for x in range (0,len(list1)-1):
+    for y in range (0,len(list1)-1):
+        if list1[y]>list1[x]:
+            list1[x],list1[y] = list1[y], list1[x]
+print(list1)    
